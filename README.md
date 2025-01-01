@@ -23,8 +23,6 @@ func DialAt(network, address string, ns int) (conn net.Conn, err error)
 func ListenAt(network, address string, ns int) (net.Listener, error) {
 ```
 
-## This is in alpha stage, use CAREFULLY and report feedback
-
 ### References:
 
 Some good libraries to work with golang and linux namespaces:
